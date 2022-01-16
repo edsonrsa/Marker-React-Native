@@ -42,7 +42,7 @@ import Marker from 'react-native-maps';
 ```
 
 2. Inside render use MapView and Marker like this:
-
+```
       <MapView
         onPress={(e) => handleNewMarker(e.nativeEvent.coordinate)}
         style={styles.map}
@@ -74,3 +74,4 @@ import Marker from 'react-native-maps';
             );
           })}
       </MapView>
+      ```
